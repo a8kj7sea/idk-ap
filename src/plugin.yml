@@ -1,0 +1,8 @@
+name: afkpool
+author: a8kj7sea
+description: Afkpool plugin
+main: dev.a8kj7sea.ap.Afkpool
+version: 0.5
+commands:
+  ap: 
+    description: plugin command

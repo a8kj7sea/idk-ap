@@ -1,0 +1,23 @@
+Messages: 
+  permissions-needed: "&cYou dont have enough permissions to use this command"
+  incorrect-usage: "&fIncorrect usage please try to type &c&l/ap help"
+  help-message:
+    - "&m&8---------------{&b&lAfk&f&lPool}&m&8---------------"
+    - " &8&l» &7to set pos1 and pos2 to afkpool region please type &6&l/ap wand"
+    - " &8&l» &7to reload configuration file please type &6&l/ap rl"
+    - " &8&l» &7to fix configuration file please type &6&l/ap fix"
+    - " &8&l» &7to get help please type &6&l/ap help"
+    - "&m&8---------------{&b&lAfk&f&lPool}&m&8---------------"
+  fix-message: "&aThe configuration file has been fixed successfully !!"
+  get-wand-message: "&aYou been got afkpool wand item successfully !"
+  pos1-message: "&aYou been set &6pos1&a afkpool successfully !"
+  pos2-message: "&aYou been set &bpos2&a afkpool successfully !"
+  reload-message: "&aYou have been reloaded the configuration file successfully !"
+  store-items-message: "&aYou have been store items into configuration file successfully !" # the message after close inventory
+  opening-APInventory-message: "&aYou have been opened afkpool items gui successfully (drop items into inventory) !"
+
+
+
+Settings:
+  afkpool-time: 1 # in minutes (Must be 1 and higher)
+  max-amount: 16 # the max amount of items can player take it 
