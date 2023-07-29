@@ -70,7 +70,7 @@ public class AfkPoolCommand implements CommandExecutor, TabCompleter {
             SoundConstants.playSound("incorrect usage", player);
         }
 
-        if (args.length != 0) {
+        if (args.length != 1) {
             player.sendMessage(format(Afkpool.getConfiguration().get().getString("Messages.incorrect-usage")));
             SoundConstants.playSound("incorrect usage", player);
             return false;
@@ -193,7 +193,7 @@ public class AfkPoolCommand implements CommandExecutor, TabCompleter {
             SoundConstants.playSound("failed", player);
             return Collections.emptyList();
         } else {
-            if (args.length != 0) {
+            if (args.length != 1) {
                 return Collections.emptyList();
             } else {
                 return suggestions;
